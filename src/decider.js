@@ -8,7 +8,7 @@ import * as util from "./utilities";
 class Decider extends React.Component {
   render() {
     return (
-      <AppContext.Provider>
+      <AppContext.Provider value="">
         <AppContainer
           ref={(navigatorRef) => {
             util.setTopLevelNavigator(navigatorRef);
