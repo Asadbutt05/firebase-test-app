@@ -1,16 +1,16 @@
-import { StyleSheet } from "react-native";
-import * as util from "../utilities/index";
+import {StyleSheet} from 'react-native';
+import * as util from '../utilities/index';
 const localStyles = StyleSheet.create({
   container: {
     flex: 1,
     alignSelf: 'center',
   },
-  input:{
-    borderWidth:0.75,
+  input: {
+    borderWidth: 0.75,
     borderRadius: util.WP(3),
-    padding:util.WP(5),
+    padding: util.WP(5),
     marginTop: util.WP(20),
-    width:util.WP(80)
+    width: util.WP(80),
   },
   button: {
     backgroundColor: 'skyblue',
@@ -19,9 +19,9 @@ const localStyles = StyleSheet.create({
     borderWidth: 0.75,
     borderRadius: util.WP(3),
     width: util.WP(40),
-    alignSelf:'center'
+    alignSelf: 'center',
   },
-  display:{
+  display: {
     backgroundColor: 'skyblue',
     marginTop: util.WP(15),
     padding: util.WP(4),
@@ -29,13 +29,13 @@ const localStyles = StyleSheet.create({
     borderRadius: util.WP(3),
     width: util.WP(80),
     height: util.WP(60),
-    alignSelf:'center',
-    flex:1,
-    marginBottom:util.WP(4)
+    alignSelf: 'center',
+    flex: 1,
+    marginBottom: util.WP(4),
   },
-  textHead:{
-    fontWeight:'bold',
-    alignSelf:'center'
-  }
+  textHead: {
+    fontWeight: 'bold',
+    alignSelf: 'center',
+  },
 });
 export default localStyles;

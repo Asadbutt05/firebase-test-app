@@ -23,7 +23,9 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
-            <meta-data  android:name="com.dieam.reactnativepushnotification.notification_foreground"
+            <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_foreground"
                     android:value="false"/>
         <!-- Change the resource name to your App's accent color - or any other color you want -->
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
